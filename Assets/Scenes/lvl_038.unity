@@ -852,12 +852,17 @@ Prefab:
     - target: {fileID: 50008795005055606, guid: c7d9fac3bc6c44398b5d39e88651db95,
         type: 2}
       propertyPath: m_Mass
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 114465129831055338, guid: c7d9fac3bc6c44398b5d39e88651db95,
         type: 2}
       propertyPath: triggerVelocity.y
       value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 50008795005055606, guid: c7d9fac3bc6c44398b5d39e88651db95,
+        type: 2}
+      propertyPath: m_UseAutoMass
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d9fac3bc6c44398b5d39e88651db95, type: 2}
